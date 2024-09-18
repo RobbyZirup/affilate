@@ -49,7 +49,7 @@ body {
 
 /* Rank badge for each card */
 .rank-badge {
-    background-color: gold;
+    /*background-color: gold;*/
     border-radius: 5px;
     padding: 5px 10px;
     font-weight: bold;
