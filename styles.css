@@ -3,33 +3,7 @@ body {
    font-family: 'Poppins', sans-serif;
 
 }
-/* Rank badge for each card */
-.rank-badge {
-    background-color: gold;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-weight: bold;
-}
 
-/* Hover effect */
-.casino-card:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-/* Custom styling for button and badges */
-.btn.custom-color:hover {
-    background-color: #ff8800;
-    border-color: #ff8800;
-}
-
-/* Additional style for mobile */
-@media (max-width: 768px) {
-    .custom-casino-square {
-        width: 50px;
-    }
-}
 
 
 .custom-color {
@@ -72,3 +46,31 @@ body {
  #myBtn:hover {
    background-color: #F49A36;
  }
+
+/* Rank badge for each card */
+.rank-badge {
+    background-color: gold;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.casino-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom styling for button and badges */
+.btn.custom-color:hover {
+    background-color: #ff8800;
+    border-color: #ff8800;
+}
+
+/* Additional style for mobile */
+@media (max-width: 768px) {
+    .custom-casino-square {
+        width: 50px;
+    }
+}
