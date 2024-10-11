@@ -68,6 +68,95 @@ body {
     border-color: #ff8800;
 }
 
+.casino-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.casino-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.rank-badge {
+    z-index: 10;
+}
+
+.custom-casino-square {
+    width: 80px;
+    height: 80px;
+}
+
+.custom-color {
+    background-color: #ff6f61; /* Main theme color */
+    color: white;
+}
+
+.custom-text-color {
+    color: #ff6f61;
+}
+
+.read-review-btn:hover {
+    color: #ff6f61;
+    text-decoration: underline;
+}
+
+.claim-btn {
+    background-color: #28a745; /* Green color for claim button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.claim-btn:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+/* papildinajums start */
+.casino-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.casino-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.rank-badge {
+    z-index: 10;
+}
+
+.custom-casino-square {
+    width: 80px;
+    height: 80px;
+}
+
+.custom-color {
+    background-color: #ff6f61; /* Main theme color */
+    color: white;
+}
+
+.custom-text-color {
+    color: #ff6f61;
+}
+
+.read-review-btn:hover {
+    color: #ff6f61;
+    text-decoration: underline;
+}
+
+.claim-btn {
+    background-color: #28a745; /* Green color for claim button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.claim-btn:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+/* end */
 /* Additional style for mobile */
 @media (max-width: 768px) {
     .custom-casino-square {
